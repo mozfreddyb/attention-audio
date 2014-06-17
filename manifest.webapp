@@ -1,0 +1,19 @@
+{
+    "version": "0.10",
+    "name": "attention-audio",
+    "launch_path": "/index.html",
+    "description": "Attention audio",
+    "orientation": "portrait-primary",
+    "developer": {
+        "name": "Frederik B",
+        "url": "https://github.com/freddyb"
+    },
+    "installs_allowed_from": ["*"],
+    "default_locale": "en",
+    "type": "privileged",
+    "permissions": {
+        "audio-channel-content":{"description":"Use the audio channel for the music player"},
+        "audio-channel-ringer": {},
+        "audio-channel-telephony": {}
+    }
+}
