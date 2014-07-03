@@ -14,6 +14,7 @@
     "permissions": {
         "audio-channel-content":{"description":"Use the audio channel for the music player"},
         "audio-channel-ringer": {},
-        "audio-channel-telephony": {}
+        "audio-channel-telephony": {},
+        "attention": {}
     }
 }
